@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
@@ -11,7 +19,130 @@
 </head>
 
 <body>
-
+    <!-- Header content -->
+    <header>
+        <nav class="row container mx-auto align-items-center">
+            <div class="col">START BOOTSTRAP</div>
+            <div class="col d-flex gap-3 justify-content-end">
+                <div>PORTFOLIO</div>
+                <div>ABOUT</div>
+                <div>CONTACT</div>
+            </div>
+        </nav>
+    </header>
+    <!-- main content -->
+    <main>
+        <section class="jumbo text-center pt-4 pb-4">
+            <div>img</div>
+            <h1 class="mb-0">START BOOTSTRAP</h1>
+            <div class="d-flex gap-2 justify-content-center align-items-center">
+                <hr>
+                <i class="fa-solid fa-star"></i>
+                <hr>
+            </div>
+            <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+        </section>
+        <section class="portfolio text-center pt-4 pb-4 container mx-auto align-items-center">
+            <h1 class="mb-0">PORTFOLIO</h1>
+            <div class="d-flex gap-2 justify-content-center align-items-center">
+                <hr>
+                <i class="fa-solid fa-star"></i>
+                <hr>
+            </div>
+            <div class="row g-3">
+                <div class="col-4">
+                    <div class="square"></div>
+                </div>
+                <div class="col-4">
+                    <div class="square"></div>
+                </div>
+                <div class="col-4">
+                    <div class="square"></div>
+                </div>
+                <div class="col-4">
+                    <div class="square"></div>
+                </div>
+                <div class="col-4">
+                    <div class="square"></div>
+                </div>
+                <div class="col-4">
+                    <div class="square"></div>
+                </div>
+            </div>
+        </section>
+        <section class="about text-center pt-4 pb-4">
+            <h1 class="mb-0">ABOUT</h1>
+            <div class="d-flex gap-2 justify-content-center align-items-center">
+                <hr>
+                <i class="fa-solid fa-star"></i>
+                <hr>
+            </div>
+            <div class="row justify-content-center gy-3">
+                <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facilis maiores
+                    aliquam accusamus necessitatibus dicta dolores eaque aspernatur provident, voluptas atque natus
+                    minima. Eius, unde repellat adipisci maxime architecto eveniet.</div>
+                <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facilis maiores
+                    aliquam accusamus necessitatibus dicta dolores eaque aspernatur provident, voluptas atque natus
+                    minima. Eius, unde repellat adipisci maxime architecto eveniet.</div>
+            </div>
+            <button type="button" class="btn btn-outline-light">
+                <i class="fa-solid fa-download"></i>
+                Download
+            </button>
+        </section>
+        <section class="contact text-center pt-4 pb-4">
+            <h1 class="mb-0">CONTACT ME</h1>
+            <div class="d-flex gap-2 justify-content-center align-items-center">
+                <hr>
+                <i class="fa-solid fa-star"></i>
+                <hr>
+            </div>
+            <div class="row text-start justify-content-center">
+                <div class="col-8 info">
+                    <div>Name</div>
+                    <hr>
+                    <div>Email Address</div>
+                    <hr>
+                    <div>Phone Number</div>
+                    <hr>
+                    <div class="mb-5">Message</div>
+                    <hr>
+                    <button type="button" class="btn btn-success">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer content -->
+    <footer>
+        <section class="footer text-center pt-4 pb-4">
+            <div class="row justify-content-center gx-2">
+                <div class="col-3">
+                    <h3 class="fs-5">LOCATION</h3>
+                    <div>2215 Jhon Daniel Drive Clark, MO</div>
+                    <div>54243</div>
+                </div>
+                <div class="col-3">
+                    <h3 class="fs-5">AROUND THE WEB</h3>
+                    <div class="d-flex gap-2 justify-content-center">
+                        <div class="circle"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="circle"><i class="fa-brands fa-google-plus-g"></i></div>
+                        <div class="circle"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="circle"><i class="fa-brands fa-linkedin-in"></i></div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h3 class="fs-5">ABOUT FREELANCER</h3>
+                    <div>Freelance is a free to use, open source</div>
+                    <div>Bootstrap theme created by <span class="text-success">Start</span>
+                    </div>
+                    <div class="text-success">Bootstrap</div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright d-flex justify-content-center align-items-center">
+            <div>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</div>
+        </section>
+    </footer>
 </body>
 
 </html>
