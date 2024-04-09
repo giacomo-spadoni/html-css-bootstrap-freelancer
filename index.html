@@ -21,6 +21,37 @@
 <body>
     <!-- Header content -->
     <header>
+        <!-- test -->
+        <nav class=" test-nav navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BOOTSTRAP</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end test -->
         <nav class="row container mx-auto align-items-center">
             <div class="col">START BOOTSTRAP</div>
             <div class="col d-flex gap-3 justify-content-end">
@@ -32,8 +63,8 @@
     </header>
     <!-- main content -->
     <main>
-        <section class="jumbo text-center pt-4 pb-4">
-            <div><img class="img-fluid rounded-circle" src="https://picsum.photos/200/200" alt=""></div>
+        <section class="jumbo d-flex flex-column align-items-center pt-4 pb-4">
+            <div class="col-4"><img class="img-fluid" src="./img/avatar.svg" alt=""></div>
             <h1 class="mb-0">START BOOTSTRAP</h1>
             <div class="d-flex gap-2 justify-content-center align-items-center">
                 <hr>
@@ -51,33 +82,33 @@
             </div>
             <div class="row g-3">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-10">
-                    <div class="square p-3">
-                        <img class="img-fluid rounded-circle text-center" src="https://picsum.photos/201/201" alt="">
+                    <div class="square overflow-hidden">
+                        <img class="img-fluid text-center" src="./img/cabin.png" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-10">
-                    <div class="square p-3">
-                        <img class="img-fluid rounded-circle text-center" src="https://picsum.photos/202/202" alt="">
+                    <div class="square overflow-hidden">
+                        <img class="img-fluid text-center" src="./img/cake.png" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-10">
-                    <div class="square p-3">
-                        <img class="img-fluid rounded-circle text-center" src="https://picsum.photos/203/203" alt="">
+                    <div class="square overflow-hidden">
+                        <img class="img-fluid text-center" src="./img/circus.png" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-10">
-                    <div class="square p-3">
-                        <img class="img-fluid rounded-circle text-center" src="https://picsum.photos/204/204" alt="">
+                    <div class="square overflow-hidden">
+                        <img class="img-fluid text-center" src="./img/game.png" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-10">
-                    <div class="square p-3">
-                        <img class="img-fluid rounded-circle text-center" src="https://picsum.photos/205/205" alt="">
+                    <div class="square overflow-hidden">
+                        <img class="img-fluid text-center" src="./img/safe.png" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-10">
-                    <div class="square p-3">
-                        <img class="img-fluid rounded-circle text-center" src="https://picsum.photos/206/206" alt="">
+                    <div class="square overflow-hidden">
+                        <img class="img-fluid text-center" src="./img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
@@ -89,11 +120,17 @@
                 <i class="fa-solid fa-star"></i>
                 <hr>
             </div>
-            <div class="row justify-content-center gy-3">
-                <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facilis maiores
+            <div class="row justify-content-center gy-3 text-about">
+                <div class="col-md-4 col-xs-10 text-start px-5">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Accusantium
+                    facilis maiores
                     aliquam accusamus necessitatibus dicta dolores eaque aspernatur provident, voluptas atque natus
                     minima. Eius, unde repellat adipisci maxime architecto eveniet.</div>
-                <div class="col-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium facilis maiores
+                <div class="col-md-4 col-xs-10 text-start px-5 pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Accusantium
+                    facilis maiores
                     aliquam accusamus necessitatibus dicta dolores eaque aspernatur provident, voluptas atque natus
                     minima. Eius, unde repellat adipisci maxime architecto eveniet.</div>
             </div>
@@ -128,12 +165,12 @@
     <footer>
         <section class="footer text-center pt-4 pb-4">
             <div class="row justify-content-center gx-2">
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10 mb-4">
                     <h3 class="fs-5">LOCATION</h3>
                     <div>2215 Jhon Daniel Drive Clark, MO</div>
                     <div>54243</div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10 mb-4">
                     <h3 class="fs-5">AROUND THE WEB</h3>
                     <div class="d-flex gap-2 justify-content-center">
                         <div class="circle"><i class="fa-brands fa-facebook-f"></i></div>
@@ -142,7 +179,7 @@
                         <div class="circle"><i class="fa-brands fa-linkedin-in"></i></div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3 col-xs-10">
                     <h3 class="fs-5">ABOUT FREELANCER</h3>
                     <div>Freelance is a free to use, open source</div>
                     <div>Bootstrap theme created by <span class="text-success">Start</span>
@@ -156,5 +193,8 @@
         </section>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
 </html>
